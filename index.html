@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto">
+</head>
+<body>
+    <h1>Weekly Workout Plans</h1>
+    <h2>Choose A Day: </h2>
+    <section id="Weekdays">
+        <button onclick="loadWorkout(0)">Sunday</button>
+        <button onclick="loadWorkout(1)">Monday</button>
+        <button onclick="loadWorkout(2)">Tuesday</button>
+        <button onclick="loadWorkout(3)">Wednesday</button>
+        <button onclick="loadWorkout(4)">Thursday</button>
+        <button onclick="loadWorkout(5)">Friday</button>
+        <button onclick="loadWorkout(6)">Saturday</button>
+    </section>
+    <main>
+        <div id="workout-container">
+            <div id="workout-routine"></div>
+            <div id="workout-plan"></div>
+            <div id="instructional-video"></div>
+        </div>
+    </main>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
